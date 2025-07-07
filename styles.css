@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+.sidebar {
+  width: 250px;
+  padding: 20px;
+  background: #f4f4f4;
+}
+.container {
+  flex-grow: 1;
+  padding: 20px;
+}
+.card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+  background: #fff;
+}
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+  background: #007bff;
+  color: white;
+  border: none;
+}
